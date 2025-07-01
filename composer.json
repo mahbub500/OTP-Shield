@@ -7,14 +7,11 @@
     ],
     "require": {
         "codexpert/plugin": "dev-master",
-        "pluggable/plugin": "dev-master",
-        "pluggable/marketing": "dev-master"
+        "wppluginhub/plugin": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Codexpert\\Otp_Shield\\" : "classes/",
-            "Codexpert\\Otp_Shield\\App\\" : "app/",
-            "Codexpert\\Otp_Shield\\API\\" : "api/"
+            "Codexpert\\Otp_Shield\\" : "classes/"
         },
         "files": []
     }

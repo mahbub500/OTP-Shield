@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: OTP Shield
- * Description: OTP Shield adds an extra layer of security to your WordPress login by requiring users to verify their identity using a one-time password (OTP) sent via SMS. Prevent unauthorized access and enhance user trust with seamless two-factor authentication (2FA) using your preferred SMS gateway.
+ * Description: OTP Shield adds an extra layer of security to your WordPress login by requiring users to verify their identity using a one-time password (OTP) sent via SMS. Prevent unauthorized access and enhance user trust with seamless two-factor authentication (2FA) using your preferred SMS gateway.
  * Plugin URI: https://codexpert.io
  * Author: Codexpert, Inc
  * Author URI: https://codexpert.io
@@ -27,10 +27,10 @@ namespace Codexpert\Otp_Shield;
 
 use Codexpert\Plugin\Widget;
 use Codexpert\Plugin\Notice;
-use Pluggable\Plugin\License;
-use Pluggable\Marketing\Survey;
-use Pluggable\Marketing\Feature;
-use Pluggable\Marketing\Deactivator;
+// use Pluggable\Plugin\License;
+// use Pluggable\Marketing\Survey;
+// use Pluggable\Marketing\Feature;
+// use Pluggable\Marketing\Deactivator;
 
 /**
  * if accessed directly, exit.
@@ -142,7 +142,7 @@ final class Plugin {
 		/**
 		 * The license
 		 */
-		$this->plugin['license']		= new License( OTP_SHIELD_FILE );
+		// $this->plugin['license']		= new License( OTP_SHIELD_FILE );
 
 		/**
 		 * Set plugin data instance

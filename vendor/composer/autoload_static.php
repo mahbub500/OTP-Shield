@@ -9,21 +9,11 @@ class ComposerStaticInit98765075d8a3780bbe2e42fef4a95068
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
-            'Codexpert\\Otp_Shield\\App\\' => 25,
-            'Codexpert\\Otp_Shield\\API\\' => 25,
             'Codexpert\\Otp_Shield\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Codexpert\\Otp_Shield\\App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
-        'Codexpert\\Otp_Shield\\API\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/api',
-        ),
         'Codexpert\\Otp_Shield\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
@@ -40,11 +30,14 @@ class ComposerStaticInit98765075d8a3780bbe2e42fef4a95068
         'Codexpert\\Plugin\\Table' => __DIR__ . '/..' . '/codexpert/plugin/src/Table.php',
         'Codexpert\\Plugin\\Widget' => __DIR__ . '/..' . '/codexpert/plugin/src/Widget.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Pluggable\\Marketing\\Deactivator' => __DIR__ . '/..' . '/pluggable/marketing/src/Deactivator.php',
-        'Pluggable\\Marketing\\Feature' => __DIR__ . '/..' . '/pluggable/marketing/src/Feature.php',
-        'Pluggable\\Marketing\\Survey' => __DIR__ . '/..' . '/pluggable/marketing/src/Survey.php',
-        'Pluggable\\Plugin\\License' => __DIR__ . '/..' . '/pluggable/plugin/src/License.php',
-        'Pluggable\\Plugin\\Update' => __DIR__ . '/..' . '/pluggable/plugin/src/Update.php',
+        'WpPluginHub\\Plugin\\Base' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Base.php',
+        'WpPluginHub\\Plugin\\Fields' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Fields.php',
+        'WpPluginHub\\Plugin\\Metabox' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Metabox.php',
+        'WpPluginHub\\Plugin\\Notice' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Notice.php',
+        'WpPluginHub\\Plugin\\Settings' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Settings.php',
+        'WpPluginHub\\Plugin\\Setup' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Setup.php',
+        'WpPluginHub\\Plugin\\Table' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Table.php',
+        'WpPluginHub\\Plugin\\Widget' => __DIR__ . '/..' . '/wppluginhub/plugin/src/Widget.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

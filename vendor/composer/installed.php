@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ca6325460b7b0d2783088e3ae055aaa1177f0e44',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ca6325460b7b0d2783088e3ae055aaa1177f0e44',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -30,23 +30,12 @@
             ),
             'dev_requirement' => false,
         ),
-        'pluggable/marketing' => array(
+        'wppluginhub/plugin' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'f07968516a9e47cb830ffc315e4c8c6be078dfef',
+            'reference' => '7bc0833e669c5c242e491f22b0b7e30c19621d3d',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../pluggable/marketing',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'dev_requirement' => false,
-        ),
-        'pluggable/plugin' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '1ce640c37aa4ff32dc1b7107ad140d6255047bc3',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../pluggable/plugin',
+            'install_path' => __DIR__ . '/../wppluginhub/plugin',
             'aliases' => array(
                 0 => '9999999-dev',
             ),

@@ -6,7 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codexpert\\Otp_Shield\\App\\' => array($baseDir . '/app'),
-    'Codexpert\\Otp_Shield\\API\\' => array($baseDir . '/api'),
     'Codexpert\\Otp_Shield\\' => array($baseDir . '/classes'),
 );

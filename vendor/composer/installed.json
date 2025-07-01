@@ -52,24 +52,24 @@
             "install-path": "../codexpert/plugin"
         },
         {
-            "name": "pluggable/marketing",
+            "name": "wppluginhub/plugin",
             "version": "dev-master",
             "version_normalized": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pluggableio/marketing.git",
-                "reference": "f07968516a9e47cb830ffc315e4c8c6be078dfef"
+                "url": "https://github.com/mahbub500/wp_pakage.git",
+                "reference": "7bc0833e669c5c242e491f22b0b7e30c19621d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pluggableio/marketing/zipball/f07968516a9e47cb830ffc315e4c8c6be078dfef",
-                "reference": "f07968516a9e47cb830ffc315e4c8c6be078dfef",
+                "url": "https://api.github.com/repos/mahbub500/wp_pakage/zipball/7bc0833e669c5c242e491f22b0b7e30c19621d3d",
+                "reference": "7bc0833e669c5c242e491f22b0b7e30c19621d3d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=5.3.0"
             },
-            "time": "2025-04-20T05:20:32+00:00",
+            "time": "2024-09-08T15:20:34+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
@@ -84,74 +84,23 @@
             ],
             "authors": [
                 {
-                    "name": "Pluggable",
-                    "email": "hi@pluggable.io",
-                    "homepage": "https://pluggable.io",
+                    "name": "Wppluginhub",
+                    "email": "mahbubmr500@gmail.com",
+                    "homepage": "http://wppluginhub.com",
                     "role": "Developer"
                 }
             ],
-            "description": "Marketing toolkit for Pluggable plugins",
-            "homepage": "https://bitbucket.org/pluggableio/marketing/",
+            "description": "Plugin tools for WpPluginHub",
+            "homepage": "https://github.com/mahbub500/wp_pakage.git",
             "keywords": [
-                "marketing",
-                "pluggable"
-            ],
-            "support": {
-                "issues": "https://github.com/pluggableio/marketing/issues",
-                "source": "https://github.com/pluggableio/marketing/tree/master"
-            },
-            "install-path": "../pluggable/marketing"
-        },
-        {
-            "name": "pluggable/plugin",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pluggableio/plugin.git",
-                "reference": "1ce640c37aa4ff32dc1b7107ad140d6255047bc3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pluggableio/plugin/zipball/1ce640c37aa4ff32dc1b7107ad140d6255047bc3",
-                "reference": "1ce640c37aa4ff32dc1b7107ad140d6255047bc3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.0"
-            },
-            "time": "2024-12-15T04:29:35+00:00",
-            "default-branch": true,
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Pluggable",
-                    "email": "hi@pluggable.io",
-                    "homepage": "https://pluggable.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "License management toolkit for Pluggable plugins",
-            "homepage": "https://bitbucket.org/pluggableio/plugin/",
-            "keywords": [
-                "pluggable",
+                "mahbub",
                 "plugin"
             ],
             "support": {
-                "issues": "https://github.com/pluggableio/plugin/issues",
-                "source": "https://github.com/pluggableio/plugin/tree/master"
+                "issues": "https://github.com/mahbub500/wp_pakage/issues",
+                "source": "https://github.com/mahbub500/wp_pakage/tree/master"
             },
-            "install-path": "../pluggable/plugin"
+            "install-path": "../wppluginhub/plugin"
         }
     ],
     "dev": true,
